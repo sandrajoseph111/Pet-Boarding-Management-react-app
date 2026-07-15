@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavigationBar from './NavigationBar'
 
 
 const ViewPet = () => {
@@ -23,7 +24,7 @@ const ViewPet = () => {
     )
   return (
     <div>
-
+<NavigationBar />
 <table class="table">
                 <thead>
                     <tr>
